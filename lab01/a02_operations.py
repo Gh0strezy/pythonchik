@@ -16,6 +16,6 @@ def main2():
 
     result1 = ((1 + 2) * 3 - 4) * 5
     return(result1)
-
+result1 = main2()
 if __name__ == '__main__':
     print(main2())

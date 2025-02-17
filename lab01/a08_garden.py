@@ -32,6 +32,6 @@ def main8():
     # TODO здесь ваш код
     set3 = meadow_set - garden_set
     return set3
-
+res8 = main8()
 if __name__ == '__main__':
     print(main8())

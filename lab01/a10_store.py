@@ -64,6 +64,6 @@ def main10():
     # print('Диван -', divan_count, 'шт, стоимость ', divan_cost ,'руб')
     # print('Стулья -', chair_count, 'шт, стоимость ', chair_cost ,'руб')
     return (f'Стол - {tables_count} шт, стоимость {tables_cost} руб\nДиван - {divan_count} шт, стоимость {divan_cost} руб\nСтулья - {chair_count} шт, стоимость {chair_cost} руб')
-
+res10 = main10()
 if __name__ == "__main__":
     print(main10())

@@ -42,6 +42,6 @@ def main9():
     }
     # Указать надо только по 2 магазина с минимальными ценами
     return sweets
-
+res9 = main9()
 if __name__ == '__main__':
     print(main9())

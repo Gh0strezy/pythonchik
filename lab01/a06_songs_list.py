@@ -49,6 +49,6 @@ def main6():
     # TODO здесь ваш код
     obsh_vrem = violator_songs_dict['Sweetest Perfection'] + violator_songs_dict['Policy of Truth'] + violator_songs_dict['Blue Dress']
     return (f'А другие три песни звучат {int(obsh_vrem)} минут')
-
+res6 = main6()
 if __name__ == '__main__':
     print(main6())

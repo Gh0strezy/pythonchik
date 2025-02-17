@@ -17,6 +17,6 @@ def main3():
 
     # TODO здесь ваш код
     return (f'{my_favorite_movies[:10]}\n{my_favorite_movies[-15:]}\n{my_favorite_movies[12:25]}\n{my_favorite_movies[-22:-17]}')
-
+result3 = main3()
 if __name__ == '__main__':
     print(main3())

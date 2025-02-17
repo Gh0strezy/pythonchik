@@ -29,5 +29,7 @@ def main5():
     lion_cage = kletka.index('lion') + 1
     lark_cage = kletka.index('lark') + 1
     return (f'лев сидит в клетке под номером {lion_cage}, а жаваронок находится в клетке под номером {lark_cage}')
+res5 = main5()
+
 if __name__ == '__main__':
     print(main5())

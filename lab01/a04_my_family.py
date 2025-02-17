@@ -23,6 +23,6 @@ def main4():
     # Выведите на консоль общий рост вашей семьи как сумму ростов всех членов
     #   Общий рост моей семьи - ХХ см
     return (f'Общий рост моей семьи - {(my_family_height[0][1] + my_family_height[1][1] + my_family_height[2][1] + my_family_height[3][1])} см')
-
+res4 = main4()
 if __name__ == "__main__":
     print(main4())

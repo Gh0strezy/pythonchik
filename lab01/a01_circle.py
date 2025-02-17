@@ -40,6 +40,7 @@ def main1():
     # 77777.7777
     # False
     # False
+result = main1()
 
 if __name__ == '__main__':
     print(main1())

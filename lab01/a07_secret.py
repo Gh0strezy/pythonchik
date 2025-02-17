@@ -34,6 +34,6 @@ def main7():
 
     # TODO вывести расшифрованное сообщение
     return (f'{secret_message[0][3]} {secret_message[1][9:13]} {secret_message[2][5:15:2]} {secret_message[3][-20:-26:-1]} {secret_message[4][-12:-17:-1]}')
-
+res7 = main7()
 if __name__ == "__main__":
     print(main7())
