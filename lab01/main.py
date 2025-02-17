@@ -1,25 +1,24 @@
-from a00_distance import main
-from a01_circle import main1
-from a02_operations import main2
-from a03_favorite_movies import main3
-from a04_my_family import main4
-from a05_zoo import main5
-from a06_songs_list import main6
-from a07_secret import main7
+import a00_distance
+import a01_circle
+import a02_operations
+import a03_favorite_movies
+import a04_my_family
+import a05_zoo
+import a06_songs_list
+import a07_secret
+import a08_garden
+import a09_shopping
+import a10_store
 
-from a08_garden import main8
 
-from a09_shopping import main9
-from a10_store import main10
-
-print(main())
-print(main1())
-print(main2())
-print(main3())
-print(main4())
-print(main5())
-print(main6())
-print(main7())
-print(main8())
-print(main9())
-print(main10())
+print(a00_distance.main())
+print(a01_circle.main1())
+print(a02_operations.main2())
+print(a03_favorite_movies.main3())
+print(a04_my_family.main4())
+print(a05_zoo.main5())
+print(a06_songs_list.main6())
+print(a07_secret.main7())
+print(a08_garden.main8())
+print(a09_shopping.main9())
+print(a10_store.main10())
