@@ -19,7 +19,7 @@ def zad2():
     """ Returns:
         str: Строка с ответом.
         >>> zad2()
-        'Ответ: 151'
+        'Ответ: 150'
         """
     number = 7 * 512 ** 120 - 6 * 64 ** 100 + 8 ** 210 - 255
     octal_number = oct(number)[2:]
@@ -31,12 +31,12 @@ def zad3():
     """ Returns:
         str: Строка с ответом.
         >>> zad3()
-        'Ответ: 71, 84084'
+        'Ответ: 72, 84084'
         """
     max_count = 0
     for x in range(84052, 84131):
         count = 0
-        for y in range(1, 84131//2+1):
+        for y in range(1, x+1):
             if x % y == 0:
                 count += 1
                 #print(x, y, x / y, count)
