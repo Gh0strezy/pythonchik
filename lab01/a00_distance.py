@@ -29,7 +29,6 @@ def main():
 distances = main()
 
 if __name__ == '__main__':
-    from pprint import pprint
-    pprint(main())
+    print(main())
 
 
