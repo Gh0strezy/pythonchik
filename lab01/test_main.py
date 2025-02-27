@@ -1,6 +1,4 @@
 import main
-print(dir(main))
-print(dir(main.a01_circle))
 def test_addition():
     assert main.a00_distance.main() == {'Moscow': {'Paris': 130.38404810405297, 'London': 145.60219778561037}, 'London': {'Paris': 42.42640687119285, 'Moscow': 145.60219778561037}, 'Paris': {'London': 42.42640687119285, 'Moscow': 130.38404810405297}}
 def test_addition2():
