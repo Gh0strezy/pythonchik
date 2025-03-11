@@ -17,7 +17,7 @@ None
 ![alt text](screenshots/image20250304105118.png)
 
 # Задание №2
-Функция для расчёта ak=2bk−1+ak−1,bk=2bk−12+bk−1ak​=2bk−1​+ak−1​,bk​=2bk−12​+bk−1​. a1=u,b1=va1​=u,b1​=v.
+Функция для расчёта $ak=2bk−1+ak−1,bk=2bk−12+bk−1ak​=2bk−1​+ak−1​,bk​=2bk−12​+bk−1​. a1=u,b1=va1​=u,b1​=v$.
 
 Точно так же, нужно было создать функции с рекурсией и без.
 В первой функции (без рекурсии) я выполнил расчет с помощью последовательности от 2 до К элемента (включительно) и возвращаю значения a1 и b1
@@ -28,4 +28,5 @@ None
 
 # Список использованных источников
 [Python enumerate: упрощаем циклы с помощью счетчиков](https://proglib.io/p/python-enumerate-uproshchaem-cikly-s-pomoshchyu-schetchikov-2020-12-08)
+
 [Функция isinstance()](https://docs-python.ru/tutorial/vstroennye-funktsii-interpretatora-python/funktsija-isinstance/)

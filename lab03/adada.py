@@ -24,15 +24,13 @@ def find_number_without_recursion(u, v, k):
       a1, b1 = 2 * b1 + a1, 2 * b1 * b1 + b1
    return a1, b1
 
-def find_number_with_recursion(u, v, k):
-   def recursion(a1, b1, current_k):
-      if current_k == k:
-         return a1, b1
-      else:
-         new_a = 2 * b1 + a1
-         new_b = 2 * b1 * b1 + b1
-         return recursion(new_a, new_b, current_k + 1)
-   return recursion(u, v, 1)
+def find_number_with_recursion(a1, b1, k):
+   if k == 1:
+      return a1, b1
+   else:
+      new_a = 2 * b1 + a1
+      new_b = 2 * b1 * b1 + b1
+      return find_number_with_recursion(new_a, new_b, k - 1)
 
 if __name__ == "__main__":
    print(find_list_recursion([1, 2, [3, 4, [5, [6, []]]]], 4))
