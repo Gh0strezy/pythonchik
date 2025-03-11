@@ -38,6 +38,8 @@ print(my_func(-5, 3))
 print(my_func(-3, "ZXC"))
 print(my_func(5, "ZXC"))
 print(my_func(5, 5))
+
+
 def my_dec(x):
     cnt = 0
     def decorator1(func):
