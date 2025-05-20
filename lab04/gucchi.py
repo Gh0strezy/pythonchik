@@ -44,7 +44,20 @@ print(collector("Стоп"))
 # print(my_func(5, 5))
 
 
+<<<<<<< HEAD
 def my_dec(x=lambda x: x <= 1024):
+=======
+@validate(lambda x: x > 0, lambda y: isinstance(y, str))
+def my_func(x, y):
+    pass
+print(my_func(-5, 3))
+print(my_func(-3, "ZXC"))
+print(my_func(5, "ZXC"))
+print(my_func(5, 5))
+
+
+def my_dec(x):
+>>>>>>> 7f9b7807a071d6406bf82a98b70493164f98abb5
     cnt = 0
     def decorator1(func):
         def wrapper(args):
