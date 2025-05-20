@@ -36,6 +36,20 @@
             }
           },
           {
+            "id": "3c52870153c41ea5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "lab05/README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          },
+          {
             "id": "243a968d452dc297",
             "type": "leaf",
             "state": {
@@ -50,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -197,14 +211,18 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "39e0c04ee3544b18",
+  "active": "3c52870153c41ea5",
   "lastOpenFiles": [
+    "lab04/README.md",
+    "lab05/README.md",
+    "lab05/screen/image20250401112338.png",
+    "lab05/screen/image20250401112311.png",
+    "lab05/screen",
     "lab03/__pycache__/adada.cpython-313.pyc",
     "lab03/__pycache__/test_zov.cpython-313-pytest-8.3.5.pyc",
     "lab03/adada.py",
     "lab03/__pycache__/__init__.cpython-313.pyc",
     "Pasted.md",
-    "lab04/README.md",
     "lab04/screen/image20250311103405.png",
     "lab03/README.md",
     "lab04/screen",
@@ -219,8 +237,6 @@
     "screenshots",
     "screenshots.md",
     "lab03/screenshots/Pasted image 20250304103143.png",
-    "lab01/README.md",
-    "lab02/Screenshots/image20250218105938.png",
-    "lab02/Screenshots/image20250218105543.png"
+    "lab01/README.md"
   ]
 }

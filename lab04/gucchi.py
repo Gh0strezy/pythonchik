@@ -1,3 +1,15 @@
+def validate(condition1, condition2):
+    def decorator(func):
+        def wrapper(args1, args2):
+            if condition1(args1) or condition2(args2):
+                print("Условие выполнено, запуск функции")
+                return func(args1, args2)
+            else:
+                print("Условие не выполнено, функция не выполнится")
+                return args1 * args2
+        return wrapper
+    return decorator
+
 def set_collector(reset_value):
     storage = []
     def collector(*args):
@@ -12,33 +24,27 @@ def set_collector(reset_value):
 
 
 collector = set_collector("Стоп")
-collector(1, 2, 3)
-collector(4)
+collector(1, 2,)
+collector(3, 4)
+print(collector("Стоп"))
+print(collector("Стоп"))
+collector(5, 6, 7)
 print(collector("Стоп"))
 print(collector("Стоп"))
 
 
-def validate(condition1, condition2):
-    def decorator(func):
-        def wrapper(args1, args2):
-            if condition1(args1) or condition2(args2):
-                print("Условие выполнено, запуск функции")
-                return func(args1, args2)
-            else:
-                print("Условие не выполнено, функция не выполнится")
-                return args1 * args2
-        return wrapper
-    return decorator
+
+# @validate(lambda x: x > 0, lambda y: isinstance(y, str))
+# def my_func(x, y):
+#     pass
+
+# print(my_func(-5, 3))
+# print(my_func(-3, "ZXC"))
+# print(my_func(5, "ZXC"))
+# print(my_func(5, 5))
 
 
-@validate(lambda x: x > 0, lambda y: isinstance(y, str))
-def my_func(x, y):
-    pass
-print(my_func(-5, 3))
-print(my_func(-3, "ZXC"))
-print(my_func(5, "ZXC"))
-print(my_func(5, 5))
-def my_dec(x):
+def my_dec(x=lambda x: x <= 1024):
     cnt = 0
     def decorator1(func):
         def wrapper(args):
@@ -53,10 +59,9 @@ def my_dec(x):
     return decorator1
 
 
-@my_dec(lambda x: x>=1024)
+@my_dec(x= lambda x: x <= 2048)
 def my_func2(x):
     if x == 0:
-        pass
         return 1
     else:
         return 2 * my_func2(x - 1)
