@@ -3,9 +3,12 @@
 
 Я создал интерфейс с помощью библиотеки PySimpleGUI, в нем я предоставляю выбор желаемого изделия и размер для расчёта стоимость пошива изделия. Результаты отображаются в рамках интерфейса, также их можно сохранить в формате word и в БД.
 ![alt text](screen/image.png)
-![alt text](screen/imageсopy.png)
-![alt text](screen/imageсopy1.png)
 
-#Список литературы:
+![alt text](screen/image1.png)
+
+![alt text](screen/image12.png)
+
+# Список литературы:
 [Запускаем PostgreSQL в Docker](https://habr.com/ru/articles/578744/)
+
 [PySimpleGUI](https://docs.pysimplegui.com/en/latest/)
